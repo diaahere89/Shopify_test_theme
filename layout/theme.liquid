@@ -126,6 +126,12 @@
       {{ content_for_layout }}
     </main>
 
+    
+    
+    <div id="test" class="row-container justify-content-center mt-5">
+      <h3 class="col-md-6">Hi there</h3>
+    </div>
+    
     {% section 'footer' %}
 
     <div id="slideshow-info" class="visually-hidden" aria-hidden="true">
@@ -138,5 +144,8 @@
     <li id="a11y-refresh-page-message">{{ 'general.accessibility.refresh_page' | t }}</li>
     <li id="a11y-selection-message">{{ 'general.accessibility.selection_help' | t }}</li>
   </ul>
+
+  {{ 'app.js' | asset_url | script_tag }}
+
 </body>
 </html>
