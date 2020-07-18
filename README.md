@@ -1,5 +1,5 @@
-# shopify_start_fresh
-Shopify starter theme by Hujjat
+# shopify_test_theme
+Shopify test theme to be developed and added to store DiaDev-101
 
 # Shopify Starter Theme
 
